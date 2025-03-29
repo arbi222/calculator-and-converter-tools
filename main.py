@@ -278,8 +278,8 @@ filemenu.add_command(label = "Light Mode" , command = lightmode)
 filemenu.add_separator()
 filemenu.add_command(label = "Exit" , command = main_window.destroy)
 
-def Facebook():
-    webbrowser.open('https://www.facebook.com/Arbi.hamolli2/')
+def Github():
+    webbrowser.open('https://github.com/arbi222/')
 
 def Instagram():
     webbrowser.open('https://www.instagram.com/arbi.hamolli/')
@@ -290,7 +290,7 @@ def Linkedin():
 
 filemenu2 = Menu(menubar , tearoff = 0)
 menubar.add_cascade(label = 'Contact' , menu = filemenu2)
-filemenu2.add_command(label = "Facebook" , command = Facebook)
+filemenu2.add_command(label = "Github" , command = Github)
 filemenu2.add_command(label = "Instagram" , command = Instagram)
 filemenu2.add_command(label = "Linkedin" , command = Linkedin)
 
